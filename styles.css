@@ -1,0 +1,37 @@
+body {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.answers {
+    display: flex;
+    justify-content: center;
+}
+
+.answer-btn {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.acerto {
+    font-size: 48px;
+    display: none;
+}
